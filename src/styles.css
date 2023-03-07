@@ -1,0 +1,27 @@
+:root {
+  --primary-color: #ffb4ac;
+  --secondary-color: #679186;
+  --accent-color-blue: #264e70;
+  --highlight: #ffebd3;
+}
+
+body {
+  font-family: roboto;
+}
+
+h1 {
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.introducton {
+  background: var(--secondary-color);
+  color: var(--highlight);
+  text-align: center;
+  margin: 276px 423px;
+}
