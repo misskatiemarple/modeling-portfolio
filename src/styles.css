@@ -1,6 +1,7 @@
 :root {
   --primary-color: #ffb4ac;
   --secondary-color: #679186;
+  --secondary-color-opaque: rgba(103, 145, 134, 0.8);
   --accent-color-blue: #264e70;
   --highlight: #ffebd3;
 }
@@ -8,22 +9,23 @@ body {
   background-color: var(--primary-color);
 }
 h1 {
-  font-family: playfair display;
+  font-family: "playfair display";
   font-weight: bold;
   font-size: 72px;
 }
 
 h2 {
-  font-family: roboto;
+  font-family: "roboto";
   font-size: 18px;
 }
 
 .introducton {
-  background: var(--secondary-color);
+  background: var(--secondary-color-opaque);
   color: var(--highlight);
   text-align: center;
-  margin: 200px 20px;
   border-radius: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .contact-me-home {
   background-color: var(--accent-color-blue);
