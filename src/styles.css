@@ -23,6 +23,10 @@ h2 {
   font-size: 18px;
 }
 
+p {
+  line-height: 2.5;
+}
+
 .introducton {
   background: var(--secondary-color-opaque);
   color: var(--highlight);
@@ -38,8 +42,16 @@ h2 {
   margin: 10px auto;
 }
 .about-me {
-  color: #f65282;
+  color: var(--accent-color-blue);
   font-size: 18px;
+}
+.social-media-icons {
+  background: var(--secondary-color-opaque);
+  color: var(--highlight);
+  text-align: center;
+  font-size: 20px;
+  border-radius: 4px;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
