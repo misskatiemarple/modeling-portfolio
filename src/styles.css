@@ -8,6 +8,10 @@
 body {
   background-color: var(--primary-color);
 }
+.page-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
 h1 {
   font-family: "playfair display";
   font-weight: bold;
