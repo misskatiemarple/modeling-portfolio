@@ -41,7 +41,7 @@ p {
   padding: 15px;
   margin: 10px auto;
 }
-.about-me {
+.me {
   color: var(--accent-color-blue);
   font-size: 18px;
 }
@@ -52,6 +52,14 @@ p {
   font-size: 20px;
   border-radius: 4px;
   margin: 0 auto;
+}
+.email-link {
+  background-color: var(--accent-color-blue);
+  color: white;
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 4px;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
