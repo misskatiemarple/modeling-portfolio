@@ -33,6 +33,10 @@ h2 {
   padding: 15px;
   margin: 10px auto;
 }
+.about-me {
+  color: #f65282;
+  font-size: 18px;
+}
 
 @media (max-width: 768px) {
   h1 {
