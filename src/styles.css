@@ -38,6 +38,10 @@ p {
   padding: 15px;
   margin: 10px auto;
 }
+.contact-me-home:hover {
+  background-color: var(--accent-color-blue);
+  color: white;
+}
 .me {
   color: var(--accent-color-blue);
   font-size: 18px;
