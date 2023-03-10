@@ -48,20 +48,16 @@ p {
 }
 .social-media-icons {
   background: var(--secondary-color-opaque);
-  color: var(--highlight);
+
   text-align: center;
   font-size: 20px;
   border-radius: 4px;
   margin: 0 auto;
 }
-.email-link {
-  background-color: var(--accent-color-blue);
-  color: white;
-  padding: 15px;
-  border-radius: 4px;
-  text-decoration: none;
-  text-align: center;
+.social-media-icons i {
+  color: var(--highlight);
 }
+
 .img-fluid {
   max-width: 100%;
   height: auton;
