@@ -23,6 +23,13 @@ h2 {
   font-size: 18px;
 }
 
+h4 {
+  font-size: 40px;
+  font-weight: bold;
+}
+h4 p {
+  margin: 0, auto;
+}
 p {
   line-height: 2.5;
 }
@@ -31,6 +38,7 @@ p {
   background: var(--secondary-color-opaque);
   color: var(--highlight);
   text-align: center;
+  margin-bottom: 25px;
 }
 .contact-me-home:hover {
   background-color: var(--accent-color-blue);
@@ -45,20 +53,27 @@ p {
   border-radius: 4px;
   margin: 0 auto;
 }
-.social-media-icons {
-  background: var(--secondary-color-opaque);
-}
+
 .social-media-icons i {
-  color: var(--highlight);
+  color: var(--accent-color-blue);
   font-size: 32px;
+  transition: all 100ms ease-in-out;
 }
 i:hover {
   color: var(--accent-color-blue);
 }
-
+footer .contact-box {
+  background: var(--highlight);
+  padding: 20px 50px;
+  border-radius: 10px;
+}
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+.btn {
+  background-color: var(--accent-color-blue);
+  padding: 20px;
 }
 
 @media (max-width: 768px) {
