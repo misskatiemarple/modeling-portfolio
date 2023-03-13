@@ -70,6 +70,10 @@ footer .contact-box {
   padding: 20px 50px;
   border-radius: 10px;
 }
+footer .contact-box h4,
+p {
+  margin: 0;
+}
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -92,7 +96,17 @@ footer .contact-box {
     font-size: 26px;
   }
   h3 {
-    font-size: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .contact-box {
+    padding: 10px 25px;
+  }
+  .contact-box h4 {
+    font-size: 25px;
+  }
+  .contact-box h4,
+  p {
     text-align: center;
   }
 }
